@@ -8,13 +8,16 @@ nav ul { list-style: none; display: flex; }
 nav ul li { margin-left: 20px; }
 nav ul li a { text-decoration: none; color: white; font-weight: 500; }
 nav ul li a.active, nav ul li a:hover { color: red; }
-.hero {color: white; text-align: center;height: 100vh; 
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  background-position: center;
-  transition: background-image 0.5s ease-in-out; /* smooth fade */
+.hero {
+    color: white; 
+       text-align: center;
+       height: 100vh; 
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.5s ease-in-out; /* smooth fade */
 }
 
 .hero::before {
