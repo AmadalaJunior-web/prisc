@@ -13,7 +13,6 @@ nav ul li a.active, nav ul li a:hover { color: red; }
   height: 100vh;
   color: white;
   text-align: center;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
